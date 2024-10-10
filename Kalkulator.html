@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <script src="./js/Kalkulator.js"></script>
+    <link rel="stylesheet" href="./css/Kalkulator.css" >
+</head>
+<body>
+    <div>
+        <h1>Kalkulator Celcius</h1>
+    </div>
+    <div>
+        Masukan suhu derajat Celcius (°C) ke kotak bawah, lalu klik tombol Konversi<br>
+        untuk mendapatkan hasil konversi dalam bentuk Farenheit (°F).
+    </div>
+    <br>
+    <div>
+        <div>
+            Celcius (°C):<br>
+            <textarea id="inputC"></textarea>
+        </div>
+        <div>
+            <button onclick="KonversiCelcius()">Konversi</button>
+            <button onclick="ResetC()">Reset</button>
+            <a href="./Farenheit.html"><button>Reverse</button></a>
+        </div>
+        <div>
+            Farenheit (°F):<br>
+            <textarea id="outputC"></textarea>
+        </div>
+        <div>
+            Cara Kalkulasi:<br>
+            <textarea id="prosesC"></textarea>
+        </div>
+    </div>
+</body>
+</html>
